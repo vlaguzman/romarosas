@@ -67,6 +67,7 @@ a:focus {
 
 img.img-responsive {
 	margin-bottom: 20px;
+  z-index: 0;
 }
 
 
@@ -609,6 +610,19 @@ a.btn:hover {
     margin-top: 0;
 }
 
+  .bar-hide{
+    position: relative;
+    z-index: 200;
+    background-color: #80cbc4;
+    opacity: 0.8;
+    color: black;
+  }
+
+  #slide-out li a  {
+    color: #004d40;
+    }
+
+
 
 /* Media queries */
 
@@ -620,6 +634,7 @@ a.btn:hover {
 	.col-xs-6 {
 		margin-bottom: 30px;
 	}
+
 }
 
 @media (max-width:480px) {
@@ -640,4 +655,5 @@ a.btn:hover {
 		font-size: 20px;
 	}
 	
+
 }
